@@ -184,3 +184,103 @@ footer ul {
 
 /*** Responsive */
 
+/* Responsive para 768px */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #card-section > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .formulario,
+    .contacto {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    footer > div {
+        width: 100%;
+    }
+
+    .news-letter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-letter input[type="submit"] {
+        position: static;
+        margin-top: 10px;
+        width: 100px;
+    }
+}
+
+/* Responsive para 450px*/
+@media (max-width: 450px) {
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+
+    .card h3 {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        width: 100%;
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    .bg-header {
+        height: 200px;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav li {
+        margin-bottom: 10px;
+    }
+
+    .formulario,
+    .contacto {
+        padding: 10px;
+    }
+
+    form input[type="text"],
+    .news-letter input[type="text"] {
+        width: 100%;
+    }
+}
+
